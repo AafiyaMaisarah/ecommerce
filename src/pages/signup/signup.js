@@ -1,5 +1,5 @@
 import { useState } from "react";
-// import as from "./styles.module.css";
+import as from "./styles.module.css";
 
  
 // import Calendar from "react-calendar";
@@ -27,7 +27,7 @@ const SignUp = () => {
     }
 }
     return(
-        <div>
+        <div className={as.center}>
         <h1 className="face">Create An Account</h1>
         <input
           className="first"
