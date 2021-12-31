@@ -1,0 +1,13 @@
+.home{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.bar{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 90vh;
+   
+    
+}
