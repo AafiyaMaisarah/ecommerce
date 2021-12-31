@@ -5,7 +5,7 @@ import Home from "./pages/homepage/Homepage";
 import Productpage from "./pages/productpage/Productpage";
 import Header from "./components/header/Header";
 import Login from "./pages/login/Login"
-import signup from "./pages/signup/signup";
+
 import SignUp from "./pages/signup/signup";
 const Routes = () => {
     return (

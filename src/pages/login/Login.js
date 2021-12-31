@@ -2,8 +2,7 @@ import { useState } from "react";
 
 import as from "./styles.module.css";
 import { Link } from "react-router-dom";
-import { color } from "@mui/system";
-import { blueGrey } from "@mui/material/colors";
+
 // import Calendar from "react-calendar";
 // import "react-calendar/dist/Calendar.css";
 const LoginForm = () => {
@@ -28,7 +27,7 @@ const LoginForm = () => {
       console.log("submit----", email, password);
     }
   };
-  return (
+ 
     <div style={{ margin: "0 auto" }}>
       <div style={{textAlign:"center"}}>
         <h1 className="face">LOGIN</h1>
@@ -62,6 +61,6 @@ const LoginForm = () => {
       {/* <button className="create">create New Account</button>
       <Calendar onChange={onDateChange} value={date} /> */}
     </div>
-  );
+  
 };
 export default LoginForm;

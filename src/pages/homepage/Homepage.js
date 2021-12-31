@@ -39,13 +39,13 @@ function Home(){
     <Loader type="Bars" color="black" height={80} width={80} /></div>
         )
     }
-    const renderProduct=()=>{
-        return products.map((product)=>{
+    // const renderProduct=()=>{
+    //     return products.map((product)=>{
 
-        })
+    //     })
 
         
-    }
+    // }
     const renderProducts = () =>{
         return products.map((product,idx)=><ProductCard key={idx} product={product}/>);
     }
